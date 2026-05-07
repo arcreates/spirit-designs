@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirit Designs | No-Frills Logo Design</title>
+    <style>
+        /* SPIRIT BRANDING GUIDELINES */
+        :root {
+            --spirit-yellow: #FFEF00;
+            --spirit-black: #000000;
+            --spirit-teal: #00A3C1;
+        }
+
+        body {
+            background-color: var(--spirit-yellow);
+            color: var(--spirit-black);
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3 {
+            text-transform: uppercase;
+            font-style: italic;
+            font-weight: 900;
+            letter-spacing: -2px;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 10vw, 6rem);
+            margin-bottom: 10px;
+        }
+
+        .strikethrough {
+            text-decoration: line-through;
+            text-decoration-color: var(--spirit-teal);
+            text-decoration-thickness: 6px;
+        }
+
+        .tagline {
+            color: var(--spirit-teal);
+            font-size: 2.5rem;
+            margin-top: -20px;
+            font-style: italic;
+            font-weight: 900;
+        }
+
+        /* SECTIONS */
+        section {
+            margin-bottom: 60px;
+            border-top: 4px solid var(--spirit-black);
+            padding-top: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* THE MENU TABLE */
+        .menu-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .menu-table td {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            font-size: 1.1rem;
+            vertical-align: top;
+        }
+
+        .price {
+            font-weight: 900;
+            font-style: italic;
+            text-align: right;
+            white-space: nowrap;
+            padding-left: 20px;
+        }
+
+        /* BUTTON */
+        .cta-button {
+            display: inline-block;
+            background-color: var(--spirit-black);
+            color: var(--spirit-yellow);
+            padding: 20px 40px;
+            text-decoration: none;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .cta-button:hover {
+            background-color: #333;
+        }
+
+        /* THE FINE PRINT */
+        .fine-print {
+            font-size: 0.8rem;
+            font-weight: normal;
+            line-height: 1.4;
+        }
+
+        .fine-print h2 {
+            font-size: 1.5rem;
+        }
+
+        .fee-warning {
+            background-color: var(--spirit-black);
+            color: var(--spirit-yellow);
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>spirit</h1>
+            <h1 class="strikethrough">airlines</h1>
+            <div class="tagline">design</div>
+        </header>
+
+        <section>
+            <h2>OUR STORY</h2>
+            <p>Most designers charge you for "the journey." They want to sell you mood meetings, vision boards, 50-page style guides, and hours of "discovery" you didn't ask for.</p>
+            <p>At Spirit Designs, we just want to land the plane. We’ve stripped away the fluff to offer a high-quality, professional logo for one flat, unbundled price. You get 15 years of design expertise without the agency-level invoice. You pay for the seat; if you want a snack or a neck pillow, that’s on you.</p>
+        </section>
+
+        <section>
+            <h2>THE MENU</h2>
+            <table class="menu-table">
+                <tr>
+                    <td><strong>The Base Fare</strong><br>1 Logo Concept, B&W files, Zero Revisions.</td>
+                    <td class="price">$299</td>
+                </tr>
+                <tr>
+                    <td><strong>The Big Front Seat</strong><br>2 Logo Concepts, Full Color, One Revision.</td>
+                    <td class="price">$399</td>
+                </tr>
+                <tr>
+                    <td><strong>Priority Boarding</strong><br>Move to the front of the queue (48-hour delivery).</td>
+                    <td class="price">+$150</td>
+                </tr>
+                <tr>
+                    <td><strong>Change of Itinerary</strong><br>1 Revision Round (Font or Color swap only).</td>
+                    <td class="price">+$75</td>
+                </tr>
+                <tr>
+                    <td><strong>Checked Bag</strong><br>Full Color Palette (HEX/CMYK) & Font Names.</td>
+                    <td class="price">+$50</td>
+                </tr>
+                <tr>
+                    <td><strong>Extra Carry-on</strong><br>Social Media Kit (Profile pictures & header templates).</td>
+                    <td class="price">+$100</td>
+                </tr>
+                <tr>
+                    <td><strong>Wi-Fi Access</strong><br>15-minute "Talk to the Pilot" Zoom call.</td>
+                    <td class="price">+$100</td>
+                </tr>
+                <tr>
+                    <td><strong>Lost Luggage</strong><br>Resending your files after download link expires.</td>
+                    <td class="price">+$25</td>
+                </tr>
+            </table>
+
+            <a href="YOUR_TALLY_FORM_URL_HERE" class="cta-button">Check-In for Departure</a>
+
+            <div class="fee-warning">
+                <strong>⚠️ MANDATORY SURCHARGES:</strong> State Sales Tax calculated at checkout. Credit Card payments incur a 3% convenience fee. ACH transfers incur a 1% processing fee.
+            </div>
+        </section>
+
+        <section class="fine-print">
+            <h2>THE FINE PRINT (Contract of Carriage)</h2>
+            <p><strong>1. All Sales are Final:</strong> Just like a $49 flight to Orlando, there are no refunds once the plane leaves the tarmac. By booking a "Base Fare," you are trusting 15 years of professional instinct. What we send is what you get.</p>
+            <p><strong>2. No Mid-Flight Changes:</strong> Revisions are not included in the Base Fare. If you want to "see it in a different shade of blue," you’ll need to pay the Change of Itinerary fee. No exceptions.</p>
+            <p><strong>3. The Flight Plan:</strong> We fly based on your intake form. If your directions are vague, our pilot will use their professional judgment to get you to the destination.</p>
+            <p><strong>4. Baggage Claim:</strong> You have 3 days to download your files once delivered. After that, they go into deep storage. If we have to find them later, the Lost Luggage fee applies.</p>
+            <p><strong>5. Respect the Crew:</strong> We provide professional design assets. We do not provide tech support, "how-to" tutorials, or brand coaching.</p>
+        </section>
+
+        <footer>
+            <p style="text-align: center; font-size: 0.8rem; margin-top: 40px;">© 2026 SPIRIT DESIGNS. NOT AFFILIATED WITH ANY ACTUAL AIRLINES, THOUGH WE SHARE THE SAME PATIENCE LEVEL.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
